@@ -23,7 +23,7 @@ const Projects = () => {
                 <li className="list">Heroku</li>
                 <li className="list">PostgreSQL</li>
             </ul>
-            <p>Click {here} to check out the github repo for the project.</p>
+            <p>Click {here} to check out the GitHub Repo for the project.</p>
         </div>
     )
 }

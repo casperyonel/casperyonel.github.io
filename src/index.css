@@ -136,4 +136,9 @@ html {
   width: 100%;
   position: absolute;
 }
+
+.Skillslist {
+  margin: 20px 10px;
+  list-style: lower-alpha;
+}
 /*# sourceMappingURL=index.css.map */
