@@ -1,19 +1,32 @@
 import React, {useState} from 'react'
+import { Link } from 'react-router-dom'
+import "../index.scss"
 
-import { Link } from "react-router-dom"
+function NavBar() {
 
-function Navbar() {
     return (
-        <>
-            <nav className="navbar">
-                <div className="navbar-container">
-                <Link to="/" className="navbar-logo">
-                    About
-                </Link>
-                </div>
+        <div className="sidebar">
+            <nav className="nav">
+                <ul>
+                    <li className="active">
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li className="active">
+                        <Link to="/projects">Projects</Link>
+                    </li>
+                    <li className="active">
+                        <Link to="/bio">Bio</Link>
+                    </li>
+                    <li className="active">
+                        <Link to="/skills">Skills</Link>
+                    </li>
+                    <li className="active">
+                        <Link to="/contact">Contact</Link>
+                    </li>
+                </ul>
             </nav>
-        </>
+        </div>
     )
 }
 
-export default Navbar
+export default NavBar
