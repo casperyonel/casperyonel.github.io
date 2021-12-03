@@ -18,9 +18,6 @@ function Skills() {
                 <li className="Skillslist">PostgreSQL</li>
             </ul>
         </div>
-        
-        // hello
-
     )
 }
 
